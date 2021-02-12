@@ -1,0 +1,135 @@
+LDA
+    Immediate       0xA9
+    Zero Page 	    0xA5
+    Zero Page,X     0xB5
+    Absolute 	    0xAD
+    Absolute,X 	    0xBD
+    Absolute,Y 	    0xB9
+    Indirect,X      0xA1
+    Indirect,Y      0xB1
+
+LDX
+    Immediate 	    0xA2
+    Zero Page 	    0xA6
+    Zero Page,Y 	0xB6
+    Absolute 	    0xAE
+    Absolute,Y 	    0xBE
+
+LDY
+    Immediate 	    0xA0
+    Zero Page 	    0xA4
+    Zero Page,Y 	0xB4
+    Absolute 	    0xAC
+    Absolute,Y 	    0xBC
+
+STA
+    Zero Page 	    0x85
+    Zero Page,X 	0x95
+    Absolute 	    0x8D
+    Absolute,X 	    0x9D
+    Absolute,Y 	    0x99
+    Indirect,X      0x81
+    Indirect,Y 	    0x91
+
+STX
+    Zero Page       0x86
+    Zero Page,Y     0x96
+    Absolute        0x8E
+
+STX
+    Zero Page       0x84
+    Zero Page,Y     0x94
+    Absolute        0x8C
+
+TAX
+    Implied         0xAA
+
+TAY
+    Implied         0xA8
+
+TXA
+    Implied         0x8A
+
+TYA
+    Implied         0x98
+
+TSX
+    Implied         0xBA
+
+AND
+    Immediate       0x29
+    Zero Page       0x25
+    Zero Page,X     0x35
+    Absolute        0x2D
+    Absolute,X      0x3D
+    Absolute,Y      0x39
+    Indirect,X      0x21
+    Indirect,Y      0x31
+
+EOR
+    Immediate       0x49
+    Zero Page       0x45
+    Zero Page,X     0x55
+    Absolute        0x4D
+    Absolute,X      0x5D
+    Absolute,Y      0x59
+    Indirect,X      0x41
+    Indirect,Y      0x51
+
+ORA
+    Immediate       0x09
+    Zero Page       0x05
+    Zero Page,X     0x15
+    Absolute        0x0D
+    Absolute,X      0x1D
+    Absolute,Y      0x19
+    Indirect,X      0x01
+    Indirect,Y      0x11
+
+BIT
+    Zero Page       0x24
+    Absolute        0x2C
+
+INC
+    Zero Page       0xE6
+    Zero Page,X     0xF6
+    Absolute        0xEE
+    Absolute,x      0xFE
+
+INX
+    Implied         0xE8
+
+INY
+    Implied         0xC8
+
+DEC
+    Zero Page       0xC6
+    Zero Page,X     0xD6
+    Absolute        0xCE
+    Absolute,x      0xDE
+
+DEX
+    Implied         0xCA
+
+DEY
+    Implied         0x88
+
+ASL
+    Accumulator     0x0A
+    Zero Page       0x06
+    Zero Page,X     0x16
+    Absolute        0x0E
+    Absolute,X      0x1E
+
+LSR
+    Accumulator     0x4A
+    Zero Page       0x46
+    Zero Page,X     0x56
+    Absolute        0x4E
+    Absolute,X      0x5E
+
+JSR
+    Absolute        0x20
+
+NOP
+    Implied         0xEA
