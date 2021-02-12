@@ -1,9 +1,9 @@
-# ######################################
-#  Copyright (c) 2021                  #
-#                                      #
-#  Author: Martin Šimara               #
-#  Last modified on 30/01/2021, 22:07  #
-# ######################################
+# ##############################
+#  Copyright (c) 2021          #
+#                              #
+#  Author: Martin Šimara       #
+#  Last modified on 12.2.2021  #
+# ##############################
 
 from CPU import CPU
 from Memory import Memory
@@ -23,7 +23,7 @@ class Debug:
         Prints CPU Registers and Flags
         """
 
-        buffer = "Current instruction: " + self.CPU.current_instruction.get_hex_value() + "\n\n    "
+        buffer = "Current instruction: " + self.CPU.instruction.get_hex_value() + "\n\n    "
         header = line_pc = line_sp = line_a = line_x = line_y = line_f = spacer = ""
 
         pc = self.CPU.get_PC()

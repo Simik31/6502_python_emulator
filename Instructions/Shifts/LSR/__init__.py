@@ -1,9 +1,9 @@
-# ######################################
-#  Copyright (c) 2021                  #
-#                                      #
-#  Author: Martin Šimara               #
-#  Last modified on 12.2.2021          #
-# ######################################
+# ##############################
+#  Copyright (c) 2021          #
+#                              #
+#  Author: Martin Šimara       #
+#  Last modified on 12.2.2021  #
+# ##############################
 
 """
 Each of the bits in A or M is shift one place to the right.

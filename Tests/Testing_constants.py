@@ -1,9 +1,9 @@
-# ######################################
-#  Copyright (c) 2021                  #
-#                                      #
-#  Author: Martin Šimara               #
-#  Last modified on 31/01/2021, 02:37  #
-# ######################################
+# ##############################
+#  Copyright (c) 2021          #
+#                              #
+#  Author: Martin Šimara       #
+#  Last modified on 12.2.2021  #
+# ##############################
 
 from typing import Union
 from CPU import CPU

@@ -1,9 +1,9 @@
-# ######################################
-#  Copyright (c) 2021                  #
-#                                      #
-#  Author: Martin Šimara               #
-#  Last modified on 12.2.2021          #
-# ######################################
+# ##############################
+#  Copyright (c) 2021          #
+#                              #
+#  Author: Martin Šimara       #
+#  Last modified on 12.2.2021  #
+# ##############################
 
 """
 The 6502 microprocessor supports a 256 byte stack fixed between memory locations $0100 and $01FF.

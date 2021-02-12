@@ -1,9 +1,9 @@
-# ######################################
-#  Copyright (c) 2021                  #
-#                                      #
-#  Author: Martin Šimara               #
-#  Last modified on 30/01/2021, 23:24  #
-# ######################################
+# ##############################
+#  Copyright (c) 2021          #
+#                              #
+#  Author: Martin Šimara       #
+#  Last modified on 12.2.2021  #
+# ##############################
 
 from typing import Union
 from instance import test_instance
@@ -43,6 +43,7 @@ class CPU:
         self.NEGATIVE_FLAG = 0b10000000
 
         self.cycles = -1
+        self.instruction = None
 
     def reset(self) -> None:
         # nmi_address = self.read_word(Word(0xfffa))
@@ -62,9 +63,9 @@ class CPU:
 
         self.cycles = cycles
         while self.cycles > 0:
-            instruction = Instructions.selector(self.fetch_byte())
-            if instruction is not None:
-                instruction(self)
+            self.instruction = Instructions.selector(self.fetch_byte())
+            if self.instruction is not None:
+                self.instruction(self)
 
         if self.cycles < 0:
             self.cycles = 0
