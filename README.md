@@ -1,7 +1,11 @@
 # 6502 CPU emulator written in python
+
 ![6502](https://camo.githubusercontent.com/3f3e4877bd335a5003269398b0fa3fe0c71900e69b08f3f93513a663b0ff30ce/68747470733a2f2f7261772e6769746875622e636f6d2f626c69747a636f64652f6e65736b656c6c2f6d61737465722f363530322e706e67)
+
 ## Little side project to train my python skills.
+
 ## Emulator is coded according to [this](http://www.obelisk.me.uk/6502/) page
+
 ### Implemented instructions: 30 / 56
 
 ### Arithmetic: 0 / 5
@@ -23,7 +27,7 @@
   [JSR](http://www.obelisk.me.uk/6502/reference.html#JSR 'JSR - Jump to Subroutine')
   ~~RTS~~
 
-### Load/Store Operations: 6 / 6
+### Load & Store: 6 / 6
 - [LDA](http://www.obelisk.me.uk/6502/reference.html#LDA 'LDA - Load Accumulator'),
   [LDX](http://www.obelisk.me.uk/6502/reference.html#LDX 'LDX - Load X Register'),
   [LDY](http://www.obelisk.me.uk/6502/reference.html#LDY 'LDY - Load Y Register'),
